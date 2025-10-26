@@ -52,8 +52,8 @@ Unleash the power of Reaper MCP - an AI-powered browser automation system design
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/reaper-browser-mcp.git
-cd reaper-browser-mcp
+git clone https://github.com/DoomsdayxProductions/Reaper-MCP.git
+cd Reaper-MCP
 
 # 2. Create virtual environment
 python -m venv venv
@@ -709,10 +709,10 @@ If this project saves you time, consider starring the repo and sharing it with a
 
 If Reaper MCP saved you time or made you money, consider supporting the development:
 
-- **☕ Buy me a coffee**: [buymeacoffee.com/reapermc](https://buymeacoffee.com/YOUR_USERNAME)
-- **₿ Bitcoin**: `YOUR_BTC_ADDRESS`
-- **Ł Litecoin**: `YOUR_LTC_ADDRESS`
-- **◎ Solana**: `YOUR_SOL_ADDRESS`
+- **☕ Buy me a coffee**: [buymeacoffee.com/DoomsdayxProductions](https://buymeacoffee.com/DoomsdayxProductions)
+- **₿ Bitcoin**: `39Qrhfyc7yzMosNXrFrL6mTC5zVh5sS54H`
+- **Ł Litecoin**: `MM35KN1wUXREpwjj2RsmiKHM1ZWKDmeqDz`
+- **◎ Solana**: `3LkBXDKLZXAgCRzAApa6dQG3ba7zRkUK82Bvmd9JWMdi`
 
 *Every contribution helps maintain and improve this project! 💀*
 
