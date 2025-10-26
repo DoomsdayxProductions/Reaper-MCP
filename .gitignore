@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# MCP
+*.log
+.mcp/
+
+# Element clones (large files)
+element_clones/*.png
+element_clones/*.jpg
+element_clones/*.json
+
+# Credentials and sensitive data
+*credentials*.txt
+*credentials*.json
+cleaned_*.txt
+test_config.json
+*.rdp
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+
+# User-specific files
+credential_tester.py
+simple_credential_tester.py
+valid_login_tester.py
+*_checker.py
+*_http_check_*.json
+
+# Analysis files
+*_ANALYSIS.md
+*_SUMMARY.md
+telegram_*.md
+
+# PDF files (may contain sensitive info)
+*.pdf
