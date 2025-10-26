@@ -48,6 +48,12 @@ Unleash the power of Reaper MCP - an AI-powered browser automation system design
 
 ## Quickstart (60 seconds)
 
+<div align="center">
+
+[![Add to Cursor](https://img.shields.io/badge/Add%20to-Cursor-blueviolet?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://github.com/DoomsdayxProductions/Reaper-MCP#cursor-ide)
+
+</div>
+
 ### ✅ **Recommended Setup (Tested Method)**
 
 ```bash
@@ -109,24 +115,6 @@ claude mcp add-json reaper-mcp '{
 ```
 
 > **💡 Replace `/path/to/reaper-browser-mcp/` with your actual project path**
-
----
-
-### ⚠️ **Alternative: FastMCP CLI (Untested)**
-
-*These methods should theoretically work but have not been fully tested. Use at your own risk.*
-
-```bash
-# Install FastMCP
-pip install fastmcp
-
-# Auto-install (untested)
-fastmcp install claude-desktop src/server.py --with-requirements requirements.txt
-# OR
-fastmcp install claude-code src/server.py --with-requirements requirements.txt  
-# OR
-fastmcp install cursor src/server.py --with-requirements requirements.txt
-```
 
 ---
 
@@ -237,49 +225,16 @@ Restart your MCP client and ask your agent:
 
 > "Use Reaper MCP to navigate to https://example.com and extract the pricing table."
 
-## 🚨 **Common Installation Issues**
+---
 
-**❌ ERROR: Could not find a version that satisfies the requirement [package]**
+## 🚨 **Having Installation Issues?**
 
-- **Solution**: Make sure your virtual environment is activated: `venv\Scripts\activate` (Windows) or `source venv/bin/activate` (Mac/Linux)
-- **Alternative**: Try upgrading pip first: `pip install --upgrade pip`
-
-**❌ Module not found errors when running server**
-
-- **Solution**: Ensure virtual environment is activated before running
-- **Check paths**: Make sure the Claude CLI command uses the correct venv path
-
-**❌ Chrome/Browser issues**
-
-- **Solution**: The server will automatically download Chrome when first run
-- **No manual Chrome installation needed**
-
-**❌ "Failed to connect to browser" / Root user issues**
-
-- **Solution**: ✅ **AUTO-FIXED!** Auto-detects root/administrator and adds `--no-sandbox` automatically
-- **Manual fix**: Add `"args": ["--no-sandbox", "--disable-setuid-sandbox"]` to spawn_browser calls
-- **Diagnostic tool**: Use `validate_browser_environment_tool()` to check your environment
-
-**❌ "Input validation error" with args parameter**
-
-- **Solution**: ✅ **AUTO-FIXED!** Now accepts both JSON arrays and JSON strings:
-  - `"args": ["--no-sandbox"]` (preferred)
-  - `"args": "[\"--no-sandbox\"]"` (also works)
-
-**❌ Container/Docker issues**
-
-- **Solution**: ✅ **AUTO-FIXED!** Auto-detects containers and adds required arguments
-- **Manual fix**: Add `"args": ["--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu"]`
-
-**❌ "claude mcp add-json" command not found**
-
-- **Solution**: Make sure you have Claude Code CLI installed
-- **Alternative**: Use manual configuration method above
-
-**❌ Path errors in Windows**
-
-- **Solution**: Use double backslashes `\\` in JSON strings for Windows paths
-- **Example**: `"C:\\\\Users\\\\name\\\\project\\\\venv\\\\Scripts\\\\python.exe"`
+Check out our comprehensive [**Installation Issues Guide**](INSTALLATION_ISSUES.md) for solutions to common problems:
+- Package installation errors
+- Module not found errors  
+- Browser/Chrome issues
+- Root user/container issues
+- Path and configuration errors
 
 ---
 
