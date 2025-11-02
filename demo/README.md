@@ -4,8 +4,8 @@
 **🎯 One Command. Perfect Recreation. Under 2 Minutes.**
 
 ```bash
-User: "hey spawn a browser and clone the hero of the site https://www.augmentcode.com/"
-Claude: *Spawns browser → Extracts 2,838 CSS properties → Generates production HTML*
+User: "hey spawn a browser and clone the full site of https://www.chase.com/"
+Cursor: *Spawns browser → Extracts 2,838 CSS properties → Generates production HTML*
 ```
 
 - ✅ **Pixel-perfect recreation** with enhanced animations
