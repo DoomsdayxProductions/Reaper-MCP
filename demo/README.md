@@ -1,9 +1,5 @@
-# 🎥 Live Demos
-
 ## 🔥 **What Makes This Go Viral**
 
-### 🎨 **FEATURED: Augment Code Hero Clone** 
-[![Augment Hero Clone](../media/AugmentHeroClone.PNG)](augment-hero-recreation.html)
 
 **🎯 One Command. Perfect Recreation. Under 2 Minutes.**
 
