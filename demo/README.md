@@ -17,8 +17,6 @@ Claude: *Spawns browser → Extracts 2,838 CSS properties → Generates producti
 - ✅ **Responsive design** improvements beyond original
 - ✅ **Complete automation** - no manual coding required
 
-**[👉 View Live Demo](augment-hero-recreation.html) | [📖 Full Demo Details](augment-hero-clone.md)**
-
 ---
 
 ### Bypass Cloudflare in Seconds
